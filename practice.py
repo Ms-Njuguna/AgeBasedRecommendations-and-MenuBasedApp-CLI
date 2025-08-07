@@ -36,6 +36,11 @@ else :
 
 # challenge 3
 
+username = input("Give me a username: ")
 
+if username != '' and len(username) > 3:
+    print('Valid username')
+else:
+    print('Error...')
 
 
