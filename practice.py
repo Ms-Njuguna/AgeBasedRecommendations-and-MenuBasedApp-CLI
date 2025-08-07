@@ -18,8 +18,21 @@ else:
 
 # challenge 2
 
+menu = 'MENU\n 1. Burger\n 2. Pizza\n 3. Salad\n 4. Exit\n'
+print(menu)
 
+user_choice = int(input("Pick a number from the menu: "))
 
+if user_choice == 1:
+    print("Burger")
+elif user_choice == 2:
+    print("Pizza")
+elif user_choice == 3:
+    print("Salad")
+elif user_choice == 4:
+    print("Bye!")
+else :
+    print("Invalid option")
 
 # challenge 3
 
